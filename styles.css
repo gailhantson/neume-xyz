@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:wght@700&family=Libertinus+Serif:ital,wght@0,400;1,400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Libertinus Serif', Georgia, serif;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #111;
+  background: #fff;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Libertinus Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #111;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #555;
+}
+
+main > section {
+  margin-bottom: 3.5rem;
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+main > section:last-child {
+  border-bottom: none;
+}
+
+article {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid #ddd;
+}
+
+article:last-child {
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem 0;
+  filter: grayscale(100%);
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+nav {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
